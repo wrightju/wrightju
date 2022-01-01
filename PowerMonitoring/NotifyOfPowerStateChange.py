@@ -13,13 +13,13 @@ loopTimeMinutes = 1
 powerFailed=False
 
 # Email info
-smsTo = ['5034388825@msg.fi.google.com','5039361112@mms.att.net']
-emailFrom = 'justin.wrightgrounds@gmail.com'
-emailUser = 'justin.wrightgrounds@gmail.com'
-emailPassword = 'zwwuyvjhrptjhugv'
+smsTo = ['phonenumber@msg.fi.google.com','phonenumber@mms.att.net']
+emailFrom = '<emailaddress>'
+emailUser = '<emailaddress>'
+emailPassword = '<password>'
 
 # PV settings
-mate3IPAddress = '192.168.86.103'
+mate3IPAddress = '<ipaddress>
 pvURL = f"http://{mate3IPAddress}/Dev_status.cgi?Port=0"
 
 def getPVDataFromMate3(pvURL):
